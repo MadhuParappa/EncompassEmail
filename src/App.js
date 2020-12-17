@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Footer/Footer';
+import Header from './Header/Header';
+import JQGrid from './JQGrid/JQGrid';
+import'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Email Team Demo App!!!!!!!!!!
-        </p>
-      </header>
+      <Header></Header>
+      <JQGrid></JQGrid>
+      <Footer></Footer>
     </div>
   );
 }
